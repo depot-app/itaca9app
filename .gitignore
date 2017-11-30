@@ -26,4 +26,4 @@ doc/
 .idea
 .secret
 .env
-secrets.yml
+
