@@ -177,6 +177,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport (= 5.0.6)
   bootstrap-sass (= 3.3.7)
   byebug
   coffee-rails (~> 4.2.2)
@@ -186,7 +187,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   pg (~> 0.18)
   puma (~> 3.0)
-  rails (~> 5.0.6)
+  rails (>= 5.0.0.1)
   rails_12factor
   railties (= 5.0.6)
   sass-rails (~> 5.0.7)
