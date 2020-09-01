@@ -19,7 +19,7 @@ default: &default
   encoding: unicode
   port: 5432
   host: localhost
-  username: ccsfunk 
+  username: yo 
   password:
     
   # For details on connection pooling, see rails configuration guide
@@ -30,7 +30,7 @@ development:
   <<: *default
   database: itaca9app_development
   port: 5432
-  username: ccsfunk
+  username: yo
   password: 
 
   # The specified database role being used to connect to postgres.
@@ -68,7 +68,7 @@ test:
   database: itaca9app_test
   port: 5432
   host:  localhost
-  username: ccsfunk
+  username: yo
   password: 
 
 # As with config/secrets.yml, you never want to store sensitive information,
@@ -93,6 +93,6 @@ test:
 production:
   <<: *default
   database: itaca9app_production
-  username: ccsfunk
+  username: yo
   password: <%= ENV['ITACA9APP_DATABASE_PASSWORD'] %>
   port: 5432
